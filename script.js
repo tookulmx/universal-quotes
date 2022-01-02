@@ -36,7 +36,7 @@ function newQuote(){
     
     // Quote length to determine styling
 
-    if (quote.text.length > 80){
+    if (quote.text.length > 120){
         quoteText.classList.add('long-quote');
     } else {
         quoteText.classList.remove('long-quote');

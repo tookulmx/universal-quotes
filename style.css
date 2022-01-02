@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 html {   
-    box-sizing: border-box;
-    font-size:3px;
+    box-sizing: content-box;
+    font-size:8px;
 }
 
 body {
@@ -18,9 +18,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
     }
 
 .quote-container {
+    margin: 5px 5px;
     width:auto;
     max-width: 900px;
     padding: 17px 17px;
@@ -90,7 +93,7 @@ button:active {
 
 
 /* Media Query */
-@media screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px){
     .quote-container {
         margin: auto 10px;
     }
@@ -102,6 +105,14 @@ button:active {
     .quote-author {
         font-size: 2rem;
     }
+
+}
+
+footer {
+    width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
 
 }
 
