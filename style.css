@@ -2,7 +2,7 @@
 
 html {   
     box-sizing: content-box;
-    font-size:8px;
+    font-size:18px;
 }
 
 body {
@@ -68,7 +68,7 @@ button {
     cursor:pointer;
     font-size: 1.2rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     color:#fff;
     background: rgb(34, 166, 206);
     outline: none;
@@ -111,7 +111,7 @@ button:active {
 footer {
     width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end;
     justify-content: center;
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: bold;
 
 }
