@@ -22,7 +22,35 @@ body {
     min-height: 100vh;
     }
 
+#quotes-by {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(255,255,255,.9);
+    justify-content: right;
+    text-align: left;
+    font-size: .7rem;
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to left, rgb(67, 55, 114), rgb(69, 99, 161));
+    font-weight: 100;
+    position: absolute;
+    top: 1px;
+}
+
+h1 {
+    padding-right: 30px;
+}
+
+#tookul {
+    width: 50px;
+    height: 50px;
+    margin: 17px;
+
+}
+
 .quote-container {
+    position: absolute;
+    top: 35%;
     margin: 5px 5px;
     width:auto 10px;
     max-width: 900px;
@@ -109,7 +137,7 @@ button:active {
 }
 
 footer {
-    background-color: rgba(0,0,0,.4);
+    background-image: linear-gradient(to left, rgb(67, 55, 114), rgb(69, 99, 161));
     width: 100vw; display: flex; flex-wrap: wrap; align-self: flex-end;
     justify-content: center;
     font-size: 1.2rem;
@@ -137,4 +165,7 @@ footer {
     100% { transform: rotate(360deg); }
   }
 
+a {
+    color: whitesmoke;
+}
   
